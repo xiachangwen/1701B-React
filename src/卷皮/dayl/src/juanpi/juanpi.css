@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    color: #333;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.App{
+    width: 100%;
+    height: 100%;
+    padding-left: 450px;
+}
+
+.headder h1{
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.head{
+    padding-left: 10px;
+    background: #FFF0F0;
+}
+
+.head p{
+    padding: 10px 0;
+    font-size: 20px;
+    color: red;
+    font-weight: 600;
+}
+
+.head p b{
+    font-weight: 500;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.head span {
+    display: block;
+    padding: 10px 0;
+}
+
+.scrten ul{
+    display: flex;
+}
+
+
+.scrten ul li {
+    border: 1px solid #ccc;
+    padding: 3px 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+.lefter{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.sizer span{
+    margin: 10px;
+    display: inline-block;
+    padding: 3px 10px;
+    border: 1px solid #ccc;
+
+}
+
+.conter span{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.active{
+    border: 1px solid red !important;
+    color: red;
+}

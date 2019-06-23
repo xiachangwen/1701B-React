@@ -1,0 +1,93 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color: #333;
+  font-size: 14px;
+  text-decoration:none;
+  box-sizing: border-box;
+}
+
+html,body,#root{
+  width: 100%;
+  height: 100%;
+}
+
+.App{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.left{
+  height: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.left-top{
+  height: 100%;
+  width: 60%;
+  border: 1px solid #ccc;
+  padding: 20px;
+  position: relative;
+
+}
+
+.left button{
+  border: 0;
+  background:   blue;
+  color: #fff;
+  padding: 5px 10px ;
+  position: absolute;
+  right: 10%;
+}
+
+.left-top p {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.left-top p input {
+  width: 60%;
+  height: 35px;
+  margin-left: 15px;
+}
+.left-top p label{
+  padding-right: 20px;
+}
+
+.left-top p textarea{
+  width: 60%;
+  height: 140px;
+}
+
+
+
+
+.rigth{
+  height: 60%;
+  
+}
+
+
+.reith-top{
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.reith-top div{
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.rigth i {
+  color: blue;
+  font-size: 14px;
+  margin-right: 20px;
+}

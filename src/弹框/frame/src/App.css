@@ -1,0 +1,73 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  position: relative;
+}
+
+.App ul{
+  list-style: none;
+  width: 200px;
+  height: 300px;
+  background: #eee;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.App ul li {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.dialog{
+  width: 200px;
+  height: 300px;
+  padding: 0 20px;
+  position: absolute;
+  left: 50%;
+  top:0;
+  transform: translateX(-50%);
+  background: rgba(0,0,0,.4);
+}
+
+.mack{
+  width: 180px;
+  height: 200px;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  flex-direction: column;
+
+}
+
+.mack p{
+  height: 50px;
+  line-height: 50px;
+}
+
+.center{
+  flex: 1;
+}
+
+.footer{
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.footer div{
+  flex: 1;
+  height: 100%;
+  border: 1px solid #ccc;
+  line-height: 40px;
+}

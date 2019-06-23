@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #333;
+    box-sizing: border-box;
+    
+}
+
+html,body{
+    background: #eee;
+}
+
+
+.header{
+    width: 600px;
+    margin-left: 200px;
+    background: #fff;
+    padding: 10px 30px 30px 30px;
+}
+
+.header h3{
+    margin: 20px 0;
+}
+.header dl{
+    display: flex;
+}
+
+.header dl dt{
+    width: 120px !important;
+    height: 120px;
+    margin-right: 10px;
+}
+
+.header dl dt img{
+    width: 120px !important;
+    height: 120px;
+}
+
+.section{
+    width: 600px;
+    margin-left: 200px;
+    background: #fff;
+}
+
+.section ol{
+    display: flex;
+    width: 100%;
+}
+
+.section ol li {
+    list-style: none;
+    flex: 1;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.section dl{
+    display: flex;
+}
+
+.section dl dt img{
+    width: 254px;
+    height: 96px;
+}
+
+.section dl dd p{
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.section ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section ul li{
+    flex-shrink: 0;
+    width: 40% !important;
+   margin-left: 30px;
+   padding-top: 10px;
+   font-size: 14px;
+}
+
+.active{
+    color: red !important;
+}
