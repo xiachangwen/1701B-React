@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+
+    </div>
+
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+    <script type="text/babel">
+
+        function House(props) {
+            return (
+                <div className="house">
+                    <h3>{props.name}</h3>
+                    <Bathroom name="Bathroom" />
+                    <Room name="Room" />
+                    
+                </div>
+            )
+        }
+    
+        ReactDOM.render(<House name='House'/>, document.getElementById('app'))
+
+
+        function Room(props) {
+            return  <div className="room">
+                        <h3>{props.name}</h3>
+                        <Man name="Man" />
+                        <Dog name="Dog" />
+                        <Dog name="Dog" />
+                    </div>
+        }
+        function Bathroom(props) {
+            return <div className="rathroom">
+                        <h3>{props.name}</h3>
+                    </div>
+        }
+
+
+        function Man(props) {
+            return <div className="man">
+                        <h3>{props.name}</h3>
+                    </div>
+        }
+        function Dog(props) {
+            return <div className="dog">
+                        <h3>{props.name}</h3>
+                    </div>
+        }
+        function Dog(props) {
+            return <div className="dog">
+                        <h3>{props.name}</h3>
+                    </div>
+        }
+
+
+    </script>
+</body>
+</html>
